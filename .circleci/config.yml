@@ -1,4 +1,4 @@
-version: 2.0
+version: 2.1
 jobs:
   build:
     machine: true
@@ -14,4 +14,4 @@ jobs:
           -H http://aqua-server1.aquaseclabs.com:8080 \
           -U svc-scanner \
           -P vpn12345 \
-          --local myimage:mytag
+          $IMAGE:$TAG
