@@ -14,5 +14,4 @@ jobs:
           -H http://aqua-server:8080 \
           -U svc-scanner \
           -P vpn12345 \
-          -v /var/run/docker.sock:/var/run/docker.sock \
           --local myimage:mytag
