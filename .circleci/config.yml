@@ -11,7 +11,7 @@ jobs:
       - run: |
           docker run -v /var/run/docker.sock:/var/run/docker.sock \
           aquasec/scanner-cli:3.2 scan \
-          -H http://aqua-server:8080 \
+          -H http://aqua-server1.aquaseclabs.com:8080 \
           -U svc-scanner \
           -P vpn12345 \
           --local myimage:mytag
